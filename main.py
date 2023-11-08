@@ -1,10 +1,10 @@
-iimport click
+import click
 
-__version__ = "0.1.1-SNAPSHOT"
+__version__ = "0.1.1"
 
-@click.command("bonjour")
+@click.command("guten-tag")
 def bonjour():
-    click.echo("bonjour monde")
+    click.echo("guten tag")
 
 @click.command("version")
 def version():
